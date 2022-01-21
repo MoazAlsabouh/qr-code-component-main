@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+.content {
+  background: var(--Light-gray);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .card {
+  width: 325px;
+  height: 500px;
+  background: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.content .card .imega {
+  width: 290px;
+  height: 290px;
+  margin: 10px;
+}
+
+.content .card .imega img {
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.content .card .inf {
+  padding: 20px;
+}
+
+.content .card .inf h1 {
+  margin: 0;
+  color: var(--Dark-blue);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content .card .inf p {
+  color: var(--Grayish-blue);
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px 0;
+  text-align: center;
+}
